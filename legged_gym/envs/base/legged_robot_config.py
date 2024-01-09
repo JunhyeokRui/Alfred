@@ -87,7 +87,7 @@ class LeggedRobotCfg(BaseConfig):
             "joint_b": 0.}
 
     class control:
-        control_type = 'P' # P: position, V: velocity, T: torques
+        control_type = 'S' # P: position, V: velocity, T: torques
         # PD Drive parameters:
         stiffness = {'joint_a': 10.0, 'joint_b': 15.}  # [N*m/rad]
         damping = {'joint_a': 1.0, 'joint_b': 1.5}     # [N*m*s/rad]
